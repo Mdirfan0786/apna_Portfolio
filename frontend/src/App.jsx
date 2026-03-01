@@ -2,6 +2,7 @@ import { useState } from "react";
 import styles from "./App.module.css";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contact from "./components/Contacts/Contact";
@@ -21,6 +22,8 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+
+      <Footer />
     </>
   );
 }
