@@ -6,6 +6,15 @@
 }
 
 body {
-  background-color: #00204a;
+  padding-inline: 7rem;
+  /* background-color: #00204a; */
+  background: linear-gradient(135deg, #1a2c38 0%, #0c141c 100%);
+  font-family: "Inter", sans-serif;
   color: #f1f5f9;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
 }
