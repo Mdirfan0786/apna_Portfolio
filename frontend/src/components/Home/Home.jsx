@@ -26,7 +26,7 @@ function Home() {
               repeat={Infinity}
             />
           </h2>
-          <span>
+          <span className={Styles.summary}>
             I build scalable and user-focused web applications using React and
             Node.js. Passionate about clean UI, secure backend systems, and
             performance-driven development.

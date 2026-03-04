@@ -10,19 +10,31 @@
   flex: 1;
 }
 
+.left_Container > h1,
+h2 {
+  line-height: 1.5;
+}
+
 .highlight {
   color: #4f46e5;
 }
 
+.summary {
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  max-width: 750px;
+}
+
 /* Button Group */
 .button_Group {
-  margin-top: 25px;
+  margin-top: 1.56rem;
   display: flex;
-  gap: 15px;
+  gap: 0.9rem;
 }
 
 .button_Group a {
-  padding: 10px 20px;
+  padding-inline: 1.25rem;
+  padding-block: 0.625rem;
   display: flex;
   gap: 0.3rem;
   align-items: center;
