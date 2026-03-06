@@ -18,6 +18,7 @@
 .projects > p {
   text-align: center;
   margin-bottom: 2rem;
+  color: #cbd5f5;
 }
 
 /* Project Container */
@@ -46,7 +47,7 @@
 }
 
 .project_card > h3 {
-  color: #00e5ff;
+  color: #38bdf8;
 }
 
 .project_card p {
