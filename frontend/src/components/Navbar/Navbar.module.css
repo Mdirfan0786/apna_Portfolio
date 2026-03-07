@@ -6,6 +6,7 @@
 }
 
 /* Nav Logo */
+
 .Nav_Logo {
   height: 100%;
   width: 15vw;
@@ -14,13 +15,14 @@
   overflow: hidden;
 }
 
-.Nav_Logo > img {
+.Nav_Logo img {
   height: 80%;
   width: 100%;
   object-fit: contain;
 }
 
-/* NAV LIST SECTION */
+/* NAV LIST */
+
 .Nav_list {
   display: flex;
   align-items: center;
@@ -39,6 +41,8 @@
   color: #00e5ff;
 }
 
+/* Active link */
+
 .active {
   color: #00e5ff;
   font-weight: 600;
@@ -56,6 +60,7 @@
 }
 
 /* Menu Icon */
+
 .menu_icon {
   display: none;
   font-size: 1.8rem;
@@ -67,16 +72,16 @@
 
 @media (max-width: 768px) {
   .Nav_Container {
-    height: 6vh;
+    height: 8vh;
   }
 
   .Nav_Logo {
-    width: 35vw;
+    width: 40vw;
   }
 
   .menu_icon {
     display: block;
-    z-index: 1001;
+    z-index: 1100;
   }
 
   .Nav_list {
@@ -84,15 +89,21 @@
     top: 0;
     right: -100%;
     height: 100vh;
-    width: 250px;
-    background-color: #111;
+    width: 70%;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 2rem;
-    transition: right 0.4s ease;
+
     backdrop-filter: blur(10px);
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.85);
+
+    transition: right 0.4s ease;
     z-index: 1000;
+  }
+
+  .Nav_list a {
+    font-size: 1.2rem;
   }
 
   .show_menu {
