@@ -1,4 +1,5 @@
 /* Skills Section */
+
 .Skills_Section {
   padding: 4rem 3rem;
   margin-block: 1rem;
@@ -23,6 +24,7 @@
 }
 
 /* Skills Container */
+
 .Skills_container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -30,6 +32,7 @@
 }
 
 /* Skills Card */
+
 .Skills_card {
   display: flex;
   flex-direction: column;
@@ -67,13 +70,12 @@
   transition: width 0.4s ease;
 }
 
-/* animation when card hover */
-
 .Skills_card:hover h3::after {
   width: 40%;
 }
 
-/* skills List */
+/* Skills List */
+
 .Skills_list {
   display: flex;
   flex-wrap: wrap;
@@ -86,4 +88,46 @@
   padding: 6px 12px;
   border-radius: 6px;
   font-size: 0.9rem;
+}
+
+/* ================= */
+/* Tablet Responsive */
+/* ================= */
+
+@media (max-width: 1024px) {
+  .Skills_Section {
+    padding: 3rem 2rem;
+  }
+
+  .Skills_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ================= */
+/* Mobile Responsive */
+/* ================= */
+
+@media (max-width: 600px) {
+  .Skills_Section {
+    padding: 2.5rem 1rem;
+  }
+
+  .Skills_title {
+    font-size: 1.8rem;
+  }
+
+  .Skills_desc {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .Skills_container {
+    grid-template-columns: 1fr;
+  }
+
+  .Skill_item {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
 }

@@ -54,3 +54,48 @@
   bottom: -4px;
   left: 0;
 }
+
+/* Menu Icon */
+.menu_icon {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* MOBILE NAVBAR */
+
+@media (max-width: 768px) {
+  .Nav_Container {
+    height: 6vh;
+  }
+
+  .Nav_Logo {
+    width: 35vw;
+  }
+
+  .menu_icon {
+    display: block;
+    z-index: 1001;
+  }
+
+  .Nav_list {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 250px;
+    background-color: #111;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    transition: right 0.4s ease;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+  }
+
+  .show_menu {
+    right: 0;
+  }
+}

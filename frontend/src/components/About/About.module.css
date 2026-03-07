@@ -1,4 +1,5 @@
-/* About and focus Section */
+/* About and Focus Section */
+
 .About_Section,
 .focus_Section {
   display: flex;
@@ -8,36 +9,40 @@
   margin-block: 1rem;
   padding-block: 3.5rem;
   padding-inline: 1.5rem;
+  gap: 40px;
 }
 
 /* About Left Section */
+
 .about_left_Container {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 5rem;
+  gap: 3rem;
 }
 
-/* About and Focus main Heading */
+/* Heading */
+
 .about_mainHeading,
 .focus_mainHeading {
   font-size: 42px;
   margin-bottom: 25px;
 }
 
-.about_mainHeading > span,
-.focus_mainHeading > span {
+.about_mainHeading span,
+.focus_mainHeading span {
   color: #4f46e5;
 }
 
 .about_summary {
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 1.25rem;
-  max-width: 750px;
+  max-width: 700px;
 }
 
-/* About Right Container */
+/* About Right */
+
 .about_right_Container {
   flex: 1;
   display: flex;
@@ -45,7 +50,7 @@
   align-items: center;
 }
 
-.about_right_Container > img {
+.about_right_Container img {
   width: 320px;
   aspect-ratio: 1/1;
   object-fit: cover;
@@ -54,12 +59,12 @@
   cursor: pointer;
 }
 
-.about_right_Container > img:hover {
+.about_right_Container img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 25px rgba(0, 229, 255, 0.4);
 }
 
-/* Focus Section*/
+/* Focus Section */
 
 .focus_right_Container {
   display: flex;
@@ -73,7 +78,7 @@
 }
 
 .focus_Card {
-  padding: 1.56rem;
+  padding: 1.5rem;
   border: 1px solid #00e5ff;
   border-radius: 0.6rem;
   transition: 0.3s ease;
@@ -81,8 +86,8 @@
 }
 
 .focus_Card h3 {
-  margin-bottom: 0.625rem;
-  font-size: 1.25rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.2rem;
   color: #00e5ff;
 }
 
@@ -93,4 +98,52 @@
 .focus_Card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 229, 255, 0.4);
+}
+
+/* Tablet Responsive */
+
+@media (max-width: 1024px) {
+  .About_Section,
+  .focus_Section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about_left_Container {
+    align-items: center;
+  }
+
+  .about_summary {
+    max-width: 600px;
+  }
+
+  .focus_Grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+  .about_mainHeading,
+  .focus_mainHeading {
+    font-size: 30px;
+  }
+
+  .about_summary {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .about_right_Container img {
+    width: 220px;
+  }
+
+  .focus_Grid {
+    grid-template-columns: 1fr;
+  }
+
+  .focus_Card {
+    text-align: left;
+  }
 }

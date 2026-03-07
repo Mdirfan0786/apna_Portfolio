@@ -19,3 +19,9 @@ h2,
 h3 {
   font-family: "Poppins", sans-serif;
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+}

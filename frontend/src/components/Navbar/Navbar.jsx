@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
+  const [openMenu, setOpenMenu] = useState(false);
   const navigate = useNavigate();
   return (
     <>
@@ -12,8 +14,18 @@ function Navbar() {
           <img src="/portfolio_logo.png" alt="portfolio_logo" />
         </div>
 
+        {/* Menu */}
+        <div
+          className={styles.menu_icon}
+          onClick={() => setOpenMenu(!openMenu)}
+        >
+          {openMenu ? <FaTimes /> : <FaBars />}
+        </div>
+
         {/* Nav List */}
-        <div className={styles.Nav_list}>
+        <div
+          className={`${styles.Nav_list} ${openMenu ? styles.show_menu : ""}`}
+        >
           <NavLink
             to="/"
             className={({ isActive }) => (isActive ? styles.active : "")}

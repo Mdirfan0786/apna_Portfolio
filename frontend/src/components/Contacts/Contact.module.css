@@ -1,6 +1,8 @@
-/* Card Section */
+/* Contact Section */
+
 .Contact_Section {
   padding: 4rem 3rem;
+  margin-block: 1rem;
   border-top: 1px solid #00e5ff;
   border-bottom: 1px solid #00e5ff;
   border-radius: 0.5rem;
@@ -19,12 +21,15 @@
   color: #cbd5f5;
 }
 
-/* Card Container */
+/* Contact Container */
+
 .Contact_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
+
+/* Contact Info */
 
 .Contact_info {
   display: flex;
@@ -42,14 +47,15 @@
 }
 
 /* Contact Form */
+
 .Contact_form {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
 }
 
-.Contact_form > input,
-.Contact_form > textarea {
+.Contact_form input,
+.Contact_form textarea {
   padding: 1rem;
   border-radius: 0.3rem;
   border: 1px solid #00e5ff;
@@ -79,13 +85,14 @@
   border-radius: 0.3rem;
   cursor: pointer;
   font-weight: bold;
+  transition: 0.3s;
 }
 
 .Contact_form button:hover {
   background: #00bcd4;
 }
 
-/* Alerts Message */
+/* Alerts */
 
 .alertSuccess {
   background: #16a34a;
@@ -115,5 +122,46 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Tablet Responsive */
+
+@media (max-width: 1024px) {
+  .Contact_Section {
+    padding: 3rem 2rem;
+  }
+
+  .Contact_container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+  .Contact_Section {
+    padding: 2.5rem 1rem;
+  }
+
+  .Contact_title {
+    font-size: 1.8rem;
+  }
+
+  .Contact_desc {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .Contact_form input,
+  .Contact_form textarea {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .Contact_form button {
+    padding: 0.7rem;
+    font-size: 0.9rem;
   }
 }

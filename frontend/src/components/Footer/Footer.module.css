@@ -5,9 +5,12 @@
   border-top: 1px solid #00e5ff;
 }
 
+/* Social Icons */
+
 .socials {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1.5rem;
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -15,15 +18,49 @@
 
 .socials a {
   color: #cfd8dc;
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 50%;
 }
 
 .socials a:hover {
   color: #4f46e5;
   transform: scale(1.2);
+  background: rgba(79, 70, 229, 0.15);
 }
 
 .footer p {
   font-size: 0.9rem;
   color: #90a4ae;
+}
+
+/* Tablet Responsive */
+
+@media (max-width: 900px) {
+  .footer {
+    padding-block: 2rem;
+  }
+
+  .socials {
+    gap: 1.2rem;
+    font-size: 1.4rem;
+  }
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+  .footer {
+    padding-block: 1.8rem;
+  }
+
+  .socials {
+    gap: 1rem;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+    padding: 0 10px;
+  }
 }
