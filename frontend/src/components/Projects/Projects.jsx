@@ -100,7 +100,7 @@ function Projects() {
               <div className={Styles.tech}>{data.tech_Stack}</div>
 
               <div className={Styles.buttons}>
-                <a href={data.Live_Demo}>
+                <a href={data.Live_Demo} target="_blank">
                   <FaRegEye />
                   Live
                 </a>
