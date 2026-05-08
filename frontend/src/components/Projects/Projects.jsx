@@ -165,7 +165,7 @@ function Projects() {
                   Live
                 </a>
 
-                <a href={data.Github_Repo}>
+                <a href={data.Github_Repo} target="_blank">
                   {" "}
                   <FaGithub />
                   GitHub
