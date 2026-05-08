@@ -75,6 +75,66 @@ const ProjectData = [
     Live_Demo: "https://artwork-table-codecreafter.netlify.app/",
     Github_Repo: "https://github.com/Mdirfan0786/ArtWork",
   },
+
+  {
+    title: "weather Dashboard",
+    img: "weather_dashboard.png",
+    description:
+      "Modern Weather Dashboard built using JavaScript and Fetch API to display real-time weather data with dynamic UI updates and error handling.",
+    tech_Stack: "HTML | CSS | JS ",
+    Live_Demo: "https://weather-dashboard-livid-gamma.vercel.app/",
+    Github_Repo: "https://github.com/Mdirfan0786/weather_dashboard",
+  },
+
+  {
+    title: "Expense Tracker",
+    img: "expense_tracker.png",
+    description:
+      "A simple Expense Tracker web app built using HTML, CSS, and JavaScript. It allows users to add income and expenses, view real-time balance updates, delete transactions, and store data using localStorage for persistence.",
+    tech_Stack: "HTML | CSS | JS ",
+    Live_Demo: "https://expense-tracker-psi-silk.vercel.app/",
+    Github_Repo: "https://github.com/Mdirfan0786/expense_tracker",
+  },
+
+  {
+    title: "Blog Manager",
+    img: "Blog_manager.png",
+    description:
+      "A modular Blog Manager built with Vanilla JavaScript (ES Modules) and Vite. Supports adding, displaying, and deleting blog posts with a clean and scalable architecture.",
+    tech_Stack: "HTML | CSS | JS ",
+    Live_Demo: "https://blog-manager-lake.vercel.app/",
+    Github_Repo: "https://github.com/Mdirfan0786/blog_manager",
+  },
+
+  {
+    title: "Explore World",
+    img: "Explore_World.png",
+    description:
+      "A modern travel exploration platform with dynamic UI and responsive design.",
+    tech_Stack: "HTML | CSS | JS ",
+    Live_Demo: "https://explore-world-nine.vercel.app/",
+    Github_Repo: "https://github.com/Mdirfan0786/Explore_World",
+  },
+
+  {
+    title: "Task Manager",
+    img: "Task_Manager.png",
+    description:
+      "A modern Todo List app to add, manage, and track tasks with filtering and localStorage support.",
+    tech_Stack: "HTML | CSS | JS ",
+    Live_Demo: "https://task-manager-app-pi-seven.vercel.app/",
+    Github_Repo: "https://github.com/Mdirfan0786/Task-Manager-App",
+  },
+
+  {
+    title: "Taskify Careers",
+    img: "Task_Manager.png",
+    description:
+      "A multi-step job application form built with HTML, CSS, and JavaScript. Includes validation, localStorage auto-save, file upload handling, and a review & submit flow for better user experience.",
+    tech_Stack: "HTML | CSS | JS ",
+    Live_Demo: "https://smart-job-application.onrender.com/",
+    Github_Repo: "https://github.com/Mdirfan0786/Smart-job-application",
+  },
 ];
 
 function Projects() {
