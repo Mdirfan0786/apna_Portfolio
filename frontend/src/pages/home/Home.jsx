@@ -9,7 +9,7 @@ function Home() {
     "https://docs.google.com/document/d/1i27rAootaVPfwFn-MRsToFYMAYHlshayFLmNNkT6j0o/preview";
 
   const resumeDownloadLink =
-    "https://docs.google.com/document/d/1i27rAootaVPfwFn-MRsToFYMAYHlshayFLmNNkT6j0o/export?format=pdf";
+    "https://docs.google.com/document/d/1i27rAootaVPfwFn-MRsToFYMAYHlshayFLmNNkT6j0o/export?format=pdf&download=1";
 
   return (
     <>
