@@ -1,0 +1,49 @@
+.focus_Section {
+  display: flex;
+  border-bottom: 1px solid #00e5ff;
+  border-top: 1px solid #00e5ff;
+  border-radius: 0.5rem;
+  margin-block: 1rem;
+  padding-block: 3.5rem;
+  padding-inline: 1.5rem;
+  gap: 40px;
+}
+
+.focus_right_Container {
+  display: flex;
+  align-items: center;
+}
+
+.focus_mainHeading {
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+
+.focus_mainHeading span {
+  color: #4f46e5;
+}
+
+.focus_Grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+  .focus_Section {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .focus_mainHeading {
+    font-size: 30px;
+  }
+
+  .focus_Grid {
+    grid-template-columns: 1fr;
+  }
+}
