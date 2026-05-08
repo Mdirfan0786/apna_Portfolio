@@ -1,20 +1,17 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import styles from "./Footer.module.css";
+import { SOCIAL_LINKS } from "../../constant/socialLinks";
 
 function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.socials}>
-        <a
-          href="https://github.com/Mdirfan0786/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={SOCIAL_LINKS.github} target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
 
         <a
-          href="https://www.linkedin.com/in/md-irfan-2623b4210/"
+          href={SOCIAL_LINKS.linkedin}
           target="_blank"
           rel="noopener noreferrer"
         >

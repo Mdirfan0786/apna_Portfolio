@@ -1,0 +1,136 @@
+const ProjectData = [
+  {
+    title: "JobAdda",
+    img: "JobAdda.png",
+    description:
+      "Full stack social networking platform where users create profiles, connect with others, share posts and generate resume PDFs.",
+    tech_Stack:
+      "React | Node.js | Express | MongoDB | JWT Authentication | PDFKit",
+    Live_Demo: "https://jobadda-frontend.onrender.com",
+    Github_Repo: "https://github.com/Mdirfan0786/JobAdda",
+  },
+
+  {
+    title: "ApnaGPT",
+    img: "ApnaGPT.png",
+    description:
+      "AI powered chat application where users can ask questions and receive AI generated responses in real time.",
+    tech_Stack: "React | Node.js | Express | MongoDB | OpenAI API",
+    Live_Demo: "https://apna-gpt-pink.vercel.app/",
+    Github_Repo: "https://github.com/Mdirfan0786/apnaGPT",
+  },
+
+  {
+    title: "ApnaGitHub",
+    img: "ApnaGitHub.png",
+    description:
+      "Full-stack GitHub clone that simulates core version control workflows including repositories, commits, and version history with a GitHub-style interface.",
+    tech_Stack:
+      "React | Node.js | Express | MongoDB | Socket.io | AWS S3 | Yargs",
+    Live_Demo: "https://github-clone-frontend-izc1.onrender.com",
+    Github_Repo: "https://github.com/Mdirfan0786/github-Clone",
+  },
+
+  {
+    title: "Zoom Clone",
+    img: "Home.png",
+    description:
+      "A real-time video conferencing application that allows users to create or join meeting rooms and communicate through live video, audio, screen sharing, and chat using WebRTC. Includes meeting history tracking and secure room-based communication.",
+    tech_Stack: "React | Node.js | Express | WebRTC | Socket.io | MongoDB",
+    Live_Demo: "https://zoom-clone-frontend-eoao.onrender.com",
+    Github_Repo: "https://github.com/Mdirfan0786/Zoom-clone",
+  },
+
+  {
+    title: "WanderLust",
+    img: "WanderLust.png",
+    description:
+      "A full-stack web application for sharing and exploring travel destination listings. Built using Node.js, Express.js, MongoDB, and EJS templating, this platform allows users to create listings, post reviews, and visualize locations on an interactive map.",
+    tech_Stack:
+      "EJS | Node.js | Express | Cloudinary | MapBox Api | MongoDB | Passport.js",
+    Live_Demo: "https://airbnb-mdirfan.onrender.com",
+    Github_Repo: "https://github.com/Mdirfan0786/delta-project",
+  },
+
+  {
+    title: "Zerodha Clone",
+    img: "Zerodha.png",
+    description:
+      "A full-stack stock trading platform inspired by Zerodha that allows users to manage their investments, view holdings, and track portfolio performance through an interactive dashboard.",
+    tech_Stack: "React | Node.js | Express | MongoDB | MUI | Chart.js | JWT",
+    Live_Demo: "https://zerodha-clone-frontend-b924.onrender.com",
+    Github_Repo: "https://github.com/Mdirfan0786/Zerodha-Clone",
+  },
+
+  {
+    title: "Artwork DataTable",
+    img: "Artwork.png",
+    description:
+      "Advanced React DataTable with lazy loading, persistent multi-page row selection, and custom selection logic using TypeScript and PrimeReact.",
+    tech_Stack: "React | TypeScript | PrimeReact | REST API",
+    Live_Demo: "https://artwork-table-codecreafter.netlify.app/",
+    Github_Repo: "https://github.com/Mdirfan0786/ArtWork",
+  },
+
+  {
+    title: "weather Dashboard",
+    img: "weather_dashboard.png",
+    description:
+      "Modern Weather Dashboard built using JavaScript and Fetch API to display real-time weather data with dynamic UI updates and error handling.",
+    tech_Stack: "HTML | CSS | JS ",
+    Live_Demo: "https://weather-dashboard-livid-gamma.vercel.app/",
+    Github_Repo: "https://github.com/Mdirfan0786/weather_dashboard",
+  },
+
+  {
+    title: "Expense Tracker",
+    img: "expense_tracker.png",
+    description:
+      "A simple Expense Tracker web app built using HTML, CSS, and JavaScript. It allows users to add income and expenses, view real-time balance updates, delete transactions, and store data using localStorage for persistence.",
+    tech_Stack: "HTML | CSS | JS ",
+    Live_Demo: "https://expense-tracker-psi-silk.vercel.app/",
+    Github_Repo: "https://github.com/Mdirfan0786/expense_tracker",
+  },
+
+  {
+    title: "Blog Manager",
+    img: "Blog_manager.png",
+    description:
+      "A modular Blog Manager built with Vanilla JavaScript (ES Modules) and Vite. Supports adding, displaying, and deleting blog posts with a clean and scalable architecture.",
+    tech_Stack: "HTML | CSS | JS ",
+    Live_Demo: "https://blog-manager-lake.vercel.app/",
+    Github_Repo: "https://github.com/Mdirfan0786/blog_manager",
+  },
+
+  {
+    title: "Explore World",
+    img: "Explore_World.png",
+    description:
+      "A modern travel exploration platform with dynamic UI and responsive design.",
+    tech_Stack: "HTML | CSS | JS ",
+    Live_Demo: "https://explore-world-nine.vercel.app/",
+    Github_Repo: "https://github.com/Mdirfan0786/Explore_World",
+  },
+
+  {
+    title: "Task Manager",
+    img: "Task_Manager.png",
+    description:
+      "A modern Todo List app to add, manage, and track tasks with filtering and localStorage support.",
+    tech_Stack: "HTML | CSS | JS ",
+    Live_Demo: "https://task-manager-app-pi-seven.vercel.app/",
+    Github_Repo: "https://github.com/Mdirfan0786/Task-Manager-App",
+  },
+
+  {
+    title: "Taskify Careers",
+    img: "Task_Manager.png",
+    description:
+      "A multi-step job application form built with HTML, CSS, and JavaScript. Includes validation, localStorage auto-save, file upload handling, and a review & submit flow for better user experience.",
+    tech_Stack: "HTML | CSS | JS ",
+    Live_Demo: "https://smart-job-application.onrender.com/",
+    Github_Repo: "https://github.com/Mdirfan0786/Smart-job-application",
+  },
+];
+
+export default ProjectData;

@@ -1,0 +1,16 @@
+/* Contact Info */
+
+.Contact_info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.Contact_info a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.Contact_info a:hover {
+  text-decoration: underline;
+}
